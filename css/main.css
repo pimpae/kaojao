@@ -1,0 +1,202 @@
+ 
+@font-face{
+  font-family: Linearicons-Free;
+  src: url(../fonts/Linearicons-Free.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+ 
+@font-face{
+  font-family: Simple-Line-Icons;
+  src: url(../fonts/Simple-Line-Icons.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+
+
+
+@font-face{
+  font-family: SukhumvitSet-Text;
+  src: url(../fonts/SukhumvitSet-Text.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: SukhumvitSet-Bold;
+  src: url(../fonts/SukhumvitSet-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+@font-face{
+  font-family: SukhumvitSet-Light;
+  src: url(../fonts/SukhumvitSet-Light.ttf);
+  font-style: normal;
+  font-variant:initial;
+} 
+
+ 
+/*html {
+  scroll-behavior: smooth;
+}*/
+.none-pad{
+  padding: 0px 0px 0px 0px !important;
+} 
+.none-pad-r{
+  padding: 0px 5px 0px 0px !important;
+} 
+.none-pad-l{
+  padding: 0px 0px 0px 5px !important;
+} 
+.none-right{
+  margin-right: -15px;
+} 
+.none-left{
+  margin-left: -15px;
+} 
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+ 
+.navbar-toggler-left .fa-bars{
+  color: #fff !important;
+}
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }
+  .none-xs{
+    padding: 0px 0px 0px 0px !important;
+  }   
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}
+
+ 
+a:hover{
+  text-decoration: none;
+}
+/*.banner {
+  height: 100vh;
+}*/ 
+
+.logox{
+  width: 180px;
+}
+
+.login h2{
+  text-align: center;
+  font-size: 22px;
+  color: #868e96 !important;
+  font-family: SukhumvitSet-Light;
+  margin-top: 10px;
+}
+
+
+.login form label{
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: default;
+  font-family: SukhumvitSet-Text;
+}
+.login form input{
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+
+.login form input:focus{
+  outline: none !important;
+}
+
+.login form small a{
+  font-family: SukhumvitSet-Light; 
+  color: #2c82c9;
+}
+.login form small a:hover{ 
+  text-decoration: underline; 
+}
+.login form button{
+  border: none;
+  border-radius: 30px;
+  display: block;
+  width: 100%;
+  background-color: #9ccc65; 
+  font-family: SukhumvitSet-Bold;
+  color: #fff;
+  font-size: 20px;
+  padding: 4px;
+  margin-top: 5px;
+}
+.login form button:hover{ 
+  background-color: #7EB73D; 
+}
+.si{
+  font-family: Simple-Line-Icons;
+  font-style: normal;
+  position: relative;
+  top: 1px;  
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.si-login:before{ 
+  content: "\e066"; 
+}
+
+.social-ic1{
+  font-size: 11px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+.social-ic1 img{
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.social-ic2{
+  font-size: 11px;
+  border-radius: 5px;
+  background-color: #1777f2;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  white-space: nowrap; 
+}
+.social-ic2 img{
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.btn-o{
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 14px;
+  font-family: SukhumvitSet-Bold;
+  color: #788693;
+  text-align: center;
+  transition: all 0.15s ease-in-out;
+}
+.btn-o:hover{
+  text-decoration: none;
+  background-color: #788693;
+  color: #fff;
+  transition: all 0.15s ease-in-out;
+}
