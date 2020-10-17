@@ -396,3 +396,43 @@ a:hover{
   margin-right: 15px;
   margin-top: 15px;
 }
+
+
+.bodyx .groupx{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  background-color: #fff;
+}
+
+.bodyx .dropdown-menu{
+  right: 0 !important;
+}
+
+.bodyx .cc1{
+  border-top-left-radius: 0px;
+  border: 1px solid #ddd;
+}
+.bodyx .cc2{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #ddd;
+}
+
+.bodyx .dropdown-toggle::after {
+  display:none;
+}
+
+.bodyx .dropdown-menu {
+  width: 230px;
+  font-family: SukhumvitSet-Text;
+  color: #575757;
+  font-size: 16px;
+}
+
+.bodyx .btn-group .btn:focus{
+  border: none;
+  border: 1px solid #ddd; 
+  transition: box-shadow .3s ease-out;
+}
