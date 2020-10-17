@@ -68,11 +68,15 @@
   .none-xs{
     padding: 0px 0px 0px 0px !important;
   }   
+  .menu{
+    display: none;
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .pc-x{
     display: none !important;
-  }  
+  } 
+
 }
 
  
