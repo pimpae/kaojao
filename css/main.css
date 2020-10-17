@@ -112,8 +112,11 @@ a:hover{
   transition: box-shadow .3s ease-out;
 }
 
-.login form input:focus{
-  outline: none !important;
+.login form input:focus{ 
+  outline:0;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-color: #575757;
 }
 
 .login form small a{
@@ -247,6 +250,7 @@ a:hover{
 .bodyx{
   background-color: #F5F6F7;
   padding: 30px;
+  height: 100vh;
 }
 
 .li1{
@@ -255,4 +259,127 @@ a:hover{
   background-color: #fff;
   border-radius: 8px;
   font-size: 24px;
+  padding-left: 30px;
+}
+
+.li2{
+  font-family: SukhumvitSet-Bold;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 24px;
+  padding-left: 30px;
+}
+.li2 form label{
+  color: #3c3c3c;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: default;
+  font-family: SukhumvitSet-Text;
+}
+.li2 form input{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+.li2 form input:focus{
+  outline:0;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-color: #575757;
+  transition: box-shadow .3s ease-out;
+}
+
+ 
+
+.li2 form select{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+.li2 form select:focus{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+ 
+
+
+.li3{
+  font-family: SukhumvitSet-Bold;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 24px;
+  padding-left: 30px;
+}
+.li3 form label{
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: default;
+  font-family: SukhumvitSet-Text;
+}
+.li3 form input{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+.li3 form input:focus{
+  outline:0;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-color: #575757;
+  transition: box-shadow .3s ease-out;
+}
+
+.li3 form select{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 18px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+  font-size: 16px;
+}
+.li3 form select option{ 
+  font-size: 14px !important;
+}
+.li3 form select:focus{
+  border: none;
+  border-right: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: 0 1px 0 #dcdfe3;
+  transition: box-shadow .3s ease-out;
+}
+
+.menu-dix{
+  display: block;
+  width: 100%;
+  background-color: #42a5f5 ; 
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fa-times{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-top: 15px;
 }
