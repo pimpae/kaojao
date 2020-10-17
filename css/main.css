@@ -200,3 +200,59 @@ a:hover{
   color: #fff;
   transition: all 0.15s ease-in-out;
 }
+.menu{  
+  height: 100vh;
+}
+.menu ul{
+  list-style: none; 
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.menu ul li{
+  
+}
+.menu ul li a{
+  display: block; 
+  padding: 8px 15px;
+  color: #616771 !important;
+  font-size: 18px;
+  font-family: SukhumvitSet-Bold;
+}
+.menu ul li a i{
+  padding-right: 15px;
+}
+.menu ul li.active a{
+  background-color: #EAEEF1;
+}
+.menu ul li a:hover{
+  background-color: #EAEEF1;
+  transition: all 0.15s ease-in-out;
+}
+.t05{
+  margin-top: 10px;
+}
+.btn-cla{
+  display: block;
+  background-color: #FFC107;
+  font-family: SukhumvitSet-Bold;
+  text-align: left;
+}
+.btn-clb{
+  display: block;
+  background-color: #F5F6F7;
+  font-family: SukhumvitSet-Bold;
+  text-align: left;
+}
+
+.bodyx{
+  background-color: #F5F6F7;
+  padding: 30px;
+}
+
+.li1{
+  font-family: SukhumvitSet-Bold;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 24px;
+}
