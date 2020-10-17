@@ -528,12 +528,14 @@
         $(document).ready(function () {
 
             $(".menu").hide();
-         
-            $('.menu-dix').click(function () {
-                $(".menu").show("slide");
-            });
 
+       
             $('.closex').click(function () {
+                $(".menu").hide("slide");
+            });
+    
+
+            $('.menu-dix').click(function () {
                 $(".menu").toggle("slide");
             });
 
